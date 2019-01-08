@@ -1,6 +1,5 @@
 import timeit
 import re
-from math import floor
 
 """ Write a function that returns the number of vowels used in a
  string. Vowels are characters 'a', 'e', 'i', 'o', 'u'

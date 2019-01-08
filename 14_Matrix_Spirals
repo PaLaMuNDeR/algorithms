@@ -1,0 +1,93 @@
+import timeit
+import re
+
+""" Write a function that accepts an integer N and returns
+ a NxN spiral matrix
+
+ Examples:
+ matrix(2)
+  [[1,2],
+   [3,4]]
+   
+ matrix(3)
+  [[1,2,3],
+   [8,9,4],
+   [7,6,5]]
+   
+ matrix(4)
+  [[ 1, 2, 3,4],
+   [12,13,14,5],
+   [11,16,15,6],
+   [10, 9, 8,7]]
+ """
+
+
+def matrix(n):
+    """After completing the first row,
+    we would increment the start row and fill in the
+    numbers until we reach the last row.
+    Then we reduce the last column pointer.
+    Then we will fill them backwards and reduce the end row.
+    And so on...
+    """
+    result=[]
+    for i in range(0,n):
+        result.append(range(1, n+1))
+
+    start_row = 0
+    end_row = n-1
+    start_column = 0
+    end_column = n-1
+    counter = 1
+
+    while start_column <= end_column and start_row <= end_row:
+        # Start row
+        for i in range(start_column, end_column+1):
+            result[start_row][i] = counter
+            counter += 1
+
+        start_row += 1
+
+        # Right column
+        for i in range(start_row, end_row+1):
+            result[i][end_column] = counter
+            counter += 1
+
+
+        end_column = end_column -1
+
+        # End row
+        for i in range(end_column, start_column-1, -1):
+            result[end_row][i] = counter
+            counter += 1
+
+        end_row = end_row - 1
+
+        # First column
+        for i in range(end_row, start_row-1, -1):
+            result[i][start_column] = counter
+            counter += 1
+
+        start_column += 1
+
+    return result
+
+
+print matrix(3)
+
+#
+# print(vowels('Hi There!'))
+# print(vowels('Why do you ask?'))
+# print(vowels('Why?'))
+#
+# print(vowels_array('Hi There!'))
+# print(vowels_array('Why do you ask?'))
+# print(vowels_array('Why?'))
+
+# a_string = 'amanaplanacanalpanama' * 10
+#
+# print "Method 1 - Array"
+# print min(timeit.repeat(lambda: vowels(a_string)))
+#
+# print "Method 2 - Regular Expression"
+# print min(timeit.repeat(lambda: vowels_re(a_string)))

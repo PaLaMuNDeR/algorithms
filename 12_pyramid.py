@@ -1,5 +1,4 @@
 import timeit
-import re
 from math import floor
 
 """ Write a function that accepts a positive number N.
