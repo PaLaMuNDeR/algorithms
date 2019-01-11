@@ -66,6 +66,5 @@ def fibonacci(n):
     return fibonacci(n - 1) + fibonacci(n - 2)
 
 
-
 print ("Method 4 - Memoization with functools")
 print (min(timeit.repeat(lambda: memoize(fibonacci(10)))))
