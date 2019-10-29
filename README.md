@@ -2,7 +2,7 @@
 
 This is a repository with interesting interview questions and algorithms
 
-#02 - Reversed string
+# 02 - Reversed string
 
 For a given string - print out the reversed the string
 For example:
@@ -25,7 +25,7 @@ Given a string, return *True* if the string is palindrome
      palindrome('abc')  = False
 ```
 
-#05 Reverse Integer
+# 05 Reverse Integer
 
 Given an integer return an integer that is the reverse
 
@@ -36,7 +36,7 @@ reverseInt(500) -> 5
 reverseInt(-15) -> -51
 reverseInt(-90) -> -9
 
-#06 Max Char
+# 06 Max Char
 Given a string, return the character that is most commonly used in the string.
 
 ```
@@ -46,7 +46,7 @@ maxChar("abcccccccdef") -> "c"
 maxChar("apple 12311111") -> "1"
 ```
 
-#07 FizzBuzz
+# 07 FizzBuzz
 Write a program that prints the numbers from 1 to n. But for multiples of three print "Fizz" instead of the number
 and for the multiples of five print "Buzz".
 For numbers which are multiples of both three and five print "FizzBuzz".
