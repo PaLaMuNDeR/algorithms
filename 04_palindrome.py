@@ -11,8 +11,14 @@ import timeit
  """
 
 
+# ===Solutions===
 def palindrome_recursive(str):
-    """30 sec"""
+    """
+    Trivial solution where we compare the first and last character.
+    Then, we remove them from the string and call the function recursively again.
+
+    Average runtime: 30 sec.
+    """
     if len(str) == 0:
         return True
     else:
@@ -23,7 +29,10 @@ def palindrome_recursive(str):
 
 
 def palindrome_reverse(str):
-    """0.5 sec"""
+    """
+    Using the reversed string function of Python, we can just compare if the original string is the same as the reversed.
+    Average time: 0.5 sec
+    """
     reversed = str[::-1]
     return str == reversed
 

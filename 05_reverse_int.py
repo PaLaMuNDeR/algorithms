@@ -11,8 +11,13 @@ reverseInt(-90) -> -9
 
  """
 
-
+# ===Solution
 def reverse_int(i):
+    """
+    We take the integer and convert it to string.
+    Check if the first symbol is '-', then we reverse the string.
+    In the end, we return it as an integer
+    """
     string_of_i = str(i)
     if string_of_i[0] == '-':
         reverse = '-'
@@ -23,19 +28,16 @@ def reverse_int(i):
 
     return int(reverse)
 
-
-print(reverse_int(15))
-print(reverse_int(189))
-print(reverse_int(500))
-print(reverse_int(-15))
-print(reverse_int(-90))
-print(reverse_int(-900))
-print(reverse_int(-901))
-
-# a_string = 'amanaplanacanalpanama' * 10
-# print "Method 1 - Reccursion"
-# print min(timeit.repeat(lambda: palindrome_recursive(a_string)))
-#
-# print "Method 2 - Reversed of a string"
-# print min(timeit.repeat(lambda: palindrome_reverse(a_string)))
-
+# print(reverse_int(15))
+# print(reverse_int(189))
+# print(reverse_int(500))
+# print(reverse_int(-15))
+# print(reverse_int(-90))
+# print(reverse_int(-900))
+# print(reverse_int(-901))
+assert reverse_int(15) == 51
+assert reverse_int(189) == 981
+assert reverse_int(500) == 5
+assert reverse_int(-15) == -51
+assert reverse_int(-900) == -9
+assert reverse_int(-901) == -109

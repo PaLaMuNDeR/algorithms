@@ -8,23 +8,24 @@ maxChar("abcccccccdef") -> "c"
 maxChar("apple 12311111") -> "1"
  """
 
-
+# === Solution ===
 def maxChar(str):
+    """
+    Store the characters in a dictionary.
+    Then we use the operator library to return the key of the highest value of the dictionary.
+    :param str: the string
+    :return: the most repeated value
+    """
     chars={}
     for i in str:
         chars[i] = chars[i] + 1 if i in chars.keys() else 1
-    print chars
     return max(chars.iteritems(), key=operator.itemgetter(1))[0]
 
 
+# print(maxChar("abcdee"))
+# print(maxChar("abcccccccdef"))
+# print(maxChar("apple 12311111"))
 
-print(maxChar("abcdee"))
-print(maxChar("abcccccccdef"))
-print(maxChar("apple 12311111"))
-# a_string = 'amanaplanacanalpanama' * 10
-# print "Method 1 - Reccursion"
-# print min(timeit.repeat(lambda: palindrome_recursive(a_string)))
-#
-# print "Method 2 - Reversed of a string"
-# print min(timeit.repeat(lambda: palindrome_reverse(a_string)))
-
+assert maxChar("abcdee") == "e"
+assert maxChar("abcccccccdef") == "c"
+assert maxChar("apple 12311111") == "1"
