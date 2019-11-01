@@ -1,7 +1,6 @@
 import timeit
 import operator
-""" Given an array and chunk size, divide the array into many subarrays
- where each subarray is of length size
+""" Given an array and chunk size, divide the array into n amount of sub-arrays
  
  Examples:
  chunk([1,2,3,4],2) -> ([1,2],[3,4])
@@ -11,8 +10,12 @@ import operator
  chunk([1,2,3,4,5],10) -> ([1,2,3,4,5])
  """
 
+
 def chunk(arr, chunk):
-    """Time - 47 sec."""
+    """
+        Cut and append lists
+        Time - 47 sec.
+    """
     small_list = []
     answer = []
     for i in arr:
@@ -23,14 +26,16 @@ def chunk(arr, chunk):
             small_list=[]
             small_list.append(i)
 
-
     answer.append(small_list)
 
     return answer
 
 
 def chunk_with_slice(arr, chunk):
-    """Time - 16 sec"""
+    """
+        Use Python's slicer
+        Time - 16 sec
+    """
     answer = []
     index = 0
 

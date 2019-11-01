@@ -12,8 +12,10 @@ return the capitalized string.
 
 
 def capitalize_move_index(str):
-    """Find a space, set index var to it and update the next char
-    Time: 16 sec."""
+    """
+        Find a space, set index var to it and update the next char
+        Time: 16 sec.
+    """
     index = 0
     str = str[index].upper() + str[index + 1:]
     index = index + str[index + 1:].find(' ') + 1
@@ -29,10 +31,12 @@ def capitalize_move_index(str):
 
 
 def capitalize_with_array(str):
-    """Split to array of words.
-    Convert the first letter of each to capital.
-    Join all the words
-    Time: 9 sec."""
+    """
+        Split to array of words.
+        Convert the first letter of each to capital.
+        Join all the words
+        Time: 9 sec.
+    """
     index = 0
     words = []
     for word in str.split(' '):
@@ -42,8 +46,10 @@ def capitalize_with_array(str):
 
 
 def capitalize_after_space(str):
-    """Before you find a space, make the next character UpperCase
-    Time: 32 sec."""
+    """
+        Before you find a space, make the next character UpperCase
+        Time: 32 sec.
+    """
     result = str[0].upper()
 
     for i in range(1, len(str)):

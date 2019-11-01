@@ -43,4 +43,3 @@ print min(timeit.repeat(lambda: palindrome_recursive(a_string)))
 
 print "Method 2 - Reversed of a string"
 print min(timeit.repeat(lambda: palindrome_reverse(a_string)))
-

@@ -14,8 +14,11 @@ Consider capital letters to be the same as lower case
 
 
 def anagrams(str1, str2):
-    """Use RE and store in dict. Compare dict
-    Time: 152 sec."""
+    """
+        Use Regular Expressions and store the two arrays in a dictionary.
+        After that compare the dictionaries
+        Time: 152 sec.
+    """
     str1 = re.sub(r'[\s\W]', "", str1).lower()
     str2 = re.sub(r'[\s\W]', "", str2).lower()
     chars1 = {}
@@ -31,8 +34,10 @@ def anagrams(str1, str2):
 
 
 def anagrams_sort(str1, str2):
-    """Use RE and sort them
-    Time: 55 sec."""
+    """
+        Use Regular Expressions and sort them
+        Time: 55 sec.
+    """
     str1 = sorted(re.sub(r'[\s\W]', "", str1).lower())
     str2 = sorted(re.sub(r'[\s\W]', "", str2).lower())
 

@@ -8,7 +8,7 @@ import timeit
  Examples:
  steps(2):
  '# '
- '## '
+ '##'
  steps(3):
  '#  '
  '## '
@@ -23,9 +23,11 @@ import timeit
 
 
 def steps(n):
-    """Just iterating on the numbers in one for loop
-    Time: 1.35 sec (with 123 steps)
-    Time: 0.78 sec (with 10 steps)"""
+    """
+        Just iterating on the numbers in one for loop
+        Time: 1.35 sec (with 123 steps)
+        Time: 0.78 sec (with 10 steps)
+    """
 
     for i in range(0, n):
         # print ('#'*(i+1)+' '*(n-i+1))
@@ -34,11 +36,12 @@ def steps(n):
 
 def steps_with_inner_loop(n):
     """
-    A solution wit double loop (outer and inner loop).
-    hIterating on the rows and then on the columns.
-    Add to the string and print.
-    Time: 10 sec(with 123 steps)
-    Time: 1.78 sec (with 10 steps)"""
+        A solution wit double loop (outer and inner loop).
+        hIterating on the rows and then on the columns.
+        Add to the string and print.
+        Time: 10 sec(with 123 steps)
+        Time: 1.78 sec (with 10 steps)
+    """
     for row in range(0, n):
         stair = ''
 

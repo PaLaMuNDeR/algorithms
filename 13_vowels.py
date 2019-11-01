@@ -14,7 +14,7 @@ import re
 
 def vowels(text):
     """Just iterating on the letters and comparing them with the vowels
-    Time:17.5 sec
+    Time:15.4 sec
     """
     vowels = ['a', 'e', 'i', 'o', 'u']
     counter = 0
@@ -28,7 +28,7 @@ def vowels(text):
 
 def vowels_re(text):
     """Regular Expression
-    Time: 17.97 sec
+    Time: 18.25 sec
     """
     matches = re.findall('a|i|e|o|u', text)
     return len(matches) if matches else 0

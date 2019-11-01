@@ -23,12 +23,13 @@ import re
 
 
 def matrix(n):
-    """After completing the first row,
-    we would increment the start row and fill in the
-    numbers until we reach the last row.
-    Then we reduce the last column pointer.
-    Then we will fill them backwards and reduce the end row.
-    And so on...
+    """
+        After completing the first row,
+        we would increment the start row and fill in the
+        numbers until we reach the last row.
+        Then we reduce the last column pointer.
+        Then we will fill them backwards and reduce the end row.
+        And so on...
     """
     result=[]
     for i in range(0,n):

@@ -1,4 +1,5 @@
-""" Return the middle node of a Linked list.
+"""
+Return the middle node of a Linked list.
 If the list has an even number of elements, return the node
 at the end of the first half of the list.
 DO NOT use a counter variable, DO NOT retrieve the size of the list,
@@ -10,7 +11,8 @@ Example:
     l.insertLast('b')
     l.insertLast('c')
     midpoint(l) -> { data: 'b' }
-    """
+
+"""
 
 
 class Node:
@@ -43,13 +45,14 @@ class LinkedL:
             printval = printval.nextval
 
 
-
 def midpoint(linkedL):
-    """We create two iterators.
-    One is jumping one step at a time
-    The other is jumping two steps at a time.
-    If in front of the second iterator the next 2 values are None,
-    then the first iterator has reached the midpoint"""
+    """
+        We create two iterators.
+        One is jumping one step at a time
+        The other is jumping two steps at a time.
+        If in front of the second iterator the next 2 values are None,
+        then the first iterator has reached the midpoint
+    """
 
     head = linkedL.head
 
