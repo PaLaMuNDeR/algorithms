@@ -22,7 +22,7 @@ class Node:
         self.nextval = None
 
 
-class LinkedL:
+class LinkedList:
     def __init__(self):
         self.head = None
 
@@ -67,7 +67,7 @@ def midpoint(linkedL):
             return i.data
 
 
-linkedL = LinkedL()
+linkedL = LinkedList()
 node1 = Node('a')
 linkedL.head = node1
 # print(linkedL.head.nextval.data)

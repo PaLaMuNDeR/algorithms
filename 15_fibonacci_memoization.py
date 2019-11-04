@@ -65,7 +65,7 @@ print (min(timeit.repeat(lambda: memoize(fib(10)))))
 def fibonacci(n):
     """
         Using the memoization function in Python3
-        Time 0.63
+        Time 0.22
     """
     if n == 0:
         return 0
@@ -75,4 +75,4 @@ def fibonacci(n):
 
 
 print ("Method 4 - Memoization with functools cache")
-print (min(timeit.repeat(lambda: memoize(fibonacci(10)))))
+print (min(timeit.repeat(lambda: fibonacci(10))))

@@ -206,3 +206,23 @@ Example:
     l.insertLast('c')
     midpoint(l) -> { data: 'b' }
 ```
+
+# 17 - Weave Queue
+"""
+1. Implement - `peek` , `add` and `remove` functions to a Queue. `remove` should act as a `pop` and say what was the last element of the queue. `peek` should print out the last item of the queue without removing it.
+2. Implement a `weave` function that merges two stacks into a third one with alternating content. The function should handle queues of different lengths. Only use `add`, `remove` and `queue`. Do not use the array
+```
+Example:
+    QueueOne.add(1)
+    QueueOne.add(2)
+    QueueOne.add(3)
+    QueueOne.add('hi')
+    QueueOne.add('there)
+
+    weave(QueueOne, QueueTwo)
+    weave.remove() // 3
+    weave.remove() // 'there'
+    weave.remove() // 2
+    weave.remove() // 'hi'
+    weave.remove() // 1
+    ```
