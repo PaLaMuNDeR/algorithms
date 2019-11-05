@@ -225,4 +225,17 @@ Example:
     weave.remove() // 2
     weave.remove() // 'hi'
     weave.remove() // 1
-    ```
+```
+    
+# 18 - Trees
+1. Create a `Node` class. The constructor should accept an argument that gets assigned to the data property and initialize
+an empty array for storing children. The node class should have methods `add` and `remove`.
+2. Create a `Tree` class. The tree constructor should initialize a `root` property to null.
+3. Implement `traverseBF` and `traverseDF` that would get as an input a function and apply it to all the nodes in the tree
+
+E.g.
+```
+                [20]
+    [0]             [40]        [-15]
+[-12] [-3] [1]                   [-2]
+```        
