@@ -6,9 +6,11 @@ an empty array for storing children. The node class should have methods `add` an
 
 E.g.
 ```
-                [20]
-    [0]             [40]        [-15]
-[-12] [-3] [1]                   [-2]
+                 [20]
+              /   |   \
+            [0]  [40] [-15]
+           / | \       |
+     [-12] [-3] [1]   [-2]
 ```
 """
 
