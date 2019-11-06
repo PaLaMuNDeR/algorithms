@@ -253,4 +253,14 @@ Given:
 4       5
 
 Answer: [1,3,2]
-```        
+```
+
+# 20 - Binary Search Trees
+1. Implement the `Node` class to create a binary search tree. The constructor should initialize valuse `data`, `left`,
+ and `right`
+
+2. Implement the `insert` method for the Node class. Insert should accept an argument `data`, then create and insert a
+ new node at the appropriate location in the tree.
+
+3. Implement the `contains` method for the Node class. Contains should accept a `data` argument and return the Node in the tree with the same value.
+If the value isn't in the tree return null.        
