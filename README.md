@@ -1,7 +1,7 @@
 # Algorithms
 
 This is a repository with interesting interview questions and algorithms from the Udemy course
- [Coding Interview Bootcamp Algorithms and Data Structure](!https://www.udemy.com/course/coding-interview-bootcamp-algorithms-and-data-structure/).
+ [Coding Interview Bootcamp Algorithms and Data Structure](!https://www.udemy.com/course/coding-interview-bootcamp-algorithms-and-data-structure/) https://www.udemy.com/course/coding-interview-bootcamp-algorithms-and-data-structure/
 
 While the course provides solutions in JavaScript - this repository presents them in Python.
 
