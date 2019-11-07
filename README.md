@@ -264,3 +264,6 @@ Answer: [1,3,2]
 
 3. Implement the `contains` method for the Node class. Contains should accept a `data` argument and return the Node in the tree with the same value.
 If the value isn't in the tree return null.        
+
+4. Validate the Binary Search Tree - given a node, validate the binary search tree, ensuring that every node's left hand
+ child is less than the parent node's value, and that every node's right hand child is greater than the parent
