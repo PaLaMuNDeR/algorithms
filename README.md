@@ -1,22 +1,23 @@
 # Algorithms
 
+# Coding Interview Bootcamp 
 This is a repository with interesting interview questions and algorithms from the Udemy course
  [Coding Interview Bootcamp Algorithms and Data Structure](!https://www.udemy.com/course/coding-interview-bootcamp-algorithms-and-data-structure/).
 
 While the course provides solutions in JavaScript - this repository presents them in Python.
 
-# 02 - Reversed string
+## 02 - Reversed string
 
 For a given string - print out the reversed the string
 For example:
 `reversed_string("abc") = "cba" `
 
-# 03 - Fibonacci
+## 03 - Fibonacci
 Print the first n fibonacci numbers
 A series of numbers in which each number ( Fibonacci number ) is the sum of the two preceding numbers.
 The simplest is the series `1, 1, 2, 3, 5, 8, etc.`
 
-# 04 - Palindrome
+## 04 - Palindrome
 Given a string, return *True* if the string is palindrome
  or *False* if it is not. Palindromes are strings that
  form the same word if it is reversed. *Do* include spaces
@@ -28,7 +29,7 @@ Given a string, return *True* if the string is palindrome
      palindrome('abc')  = False
 ```
 
-# 05 Reverse Integer
+## 05 Reverse Integer
 
 Given an integer return an integer that is the reverse
 
@@ -39,7 +40,7 @@ reverseInt(500) -> 5
 reverseInt(-15) -> -51
 reverseInt(-90) -> -9
 
-# 06 Max Char
+## 06 Max Char
 Given a string, return the character that is most commonly used in the string.
 
 ```
@@ -49,7 +50,7 @@ maxChar("abcccccccdef") -> "c"
 maxChar("apple 12311111") -> "1"
 ```
 
-# 07 FizzBuzz
+## 07 FizzBuzz
 Write a program that prints the numbers from 1 to n. But for multiples of three print "Fizz" instead of the number
 and for the multiples of five print "Buzz".
 For numbers which are multiples of both three and five print "FizzBuzz".
@@ -74,7 +75,7 @@ Fizz
 FizzBuzz
 ```
 
-# 08 - Array chunk
+## 08 - Array chunk
 Given an array and chunk size, divide the array into `chunk` amount of sub-arrays
  
  ```
@@ -86,7 +87,7 @@ Given an array and chunk size, divide the array into `chunk` amount of sub-array
  chunk([1,2,3,4,5],10) -> ([1,2,3,4,5])
  ```
  
- # 09 - Anagrams
+ ## 09 - Anagrams
  Check to see if two provided strings are anagrams of each other.
 One string is an anagram of another if it uses the same characters
 in the same quantity. Only consider chars, not spaces or punctuation
@@ -99,7 +100,7 @@ Consider capital letters to be the same as lower case
      anagrams('Hi there', 'Bye there') = False
 ```
 
-# 10 - Capitalize Function
+## 10 - Capitalize Function
 Write a function that accepts a string. The function should 
 capitalize the first letter of each word in the string then 
 return the capitalized string.
@@ -111,7 +112,7 @@ return the capitalized string.
      capitalize('look, it is working!') -> 'Look, It Is Working!'
 ```
 
-# 11 - Steps
+## 11 - Steps
  Write a function that should console log a step shape with N levels 
  using the # character. 
  Make sure the step has spaces on the right hand side.
@@ -131,7 +132,7 @@ return the capitalized string.
  '####'
  ```
  
- # 12 - Pyramid
+ ## 12 - Pyramid
  Write a function that accepts a positive number N.
  The function should console log a pyramid shape
  with N levels using the # character.  
@@ -155,7 +156,7 @@ return the capitalized string.
  '#######'
  ```
  
-# 13 - Vowels
+## 13 - Vowels
 Write a function that returns the number of vowels used in a
  string. Vowels are characters 'a', 'e', 'i', 'o', 'u'
  
@@ -166,7 +167,7 @@ Write a function that returns the number of vowels used in a
  vowels('Why?') -> 0
 ```
 
-# 14 - Matrix Spirals
+## 14 - Matrix Spirals
 Write a function that accepts an integer N and returns
  a NxN spiral matrix
 
@@ -188,10 +189,10 @@ Write a function that accepts an integer N and returns
    [10, 9, 8,7]]
 ```
 
-# 15 - Fibonacci Optimization
+## 15 - Fibonacci Optimization
 Optimize the Fibonacci solution with cache / memoization
 
-# 16 - Linked List
+## 16 - Linked List
 Return the middle node of a Linked list.
 If the list has an even number of elements, return the node
 at the end of the first half of the list.
@@ -207,7 +208,7 @@ Example:
     midpoint(l) -> { data: 'b' }
 ```
 
-# 17 - Weave Queue
+## 17 - Weave Queue
 """
 1. Implement - `peek` , `add` and `remove` functions to a Queue. `remove` should act as a `pop` and say what was the last element of the queue. `peek` should print out the last item of the queue without removing it.
 2. Implement a `weave` function that merges two stacks into a third one with alternating content. The function should handle queues of different lengths. Only use `add`, `remove` and `queue`. Do not use the array
@@ -227,7 +228,7 @@ Example:
     weave.remove() // 1
 ```
     
-# 18 - Trees
+## 18 - Trees
 1. Create a `Node` class. The constructor should accept an argument that gets assigned to the data property and initialize
 an empty array for storing children. The node class should have methods `add` and `remove`.
 2. Create a `Tree` class. The tree constructor should initialize a `root` property to null.
@@ -240,7 +241,7 @@ E.g.
 [-12] [-3] [1]                   [-2]
 ```
 
-# 19 - Tree Width
+## 19 - Tree Width
 Given the root node of a tree, return an array where each element is the width of tree at each level
 
 Example:
@@ -255,7 +256,7 @@ Given:
 Answer: [1,3,2]
 ```
 
-# 20 - Binary Search Trees
+## 20 - Binary Search Trees
 1. Implement the `Node` class to create a binary search tree. The constructor should initialize valuse `data`, `left`,
  and `right`
 
@@ -268,5 +269,21 @@ If the value isn't in the tree return null.
 4. Validate the Binary Search Tree - given a node, validate the binary search tree, ensuring that every node's left hand
  child is less than the parent node's value, and that every node's right hand child is greater than the parent
 
-# 21 - Sorting algorithms
+## 21 - Sorting algorithms
 Implement Bubble Sort, Selection Sort, Merge Sort
+
+# Hacker Rank Challenges
+
+## Roads and Libraries
+https://www.hackerrank.com/challenges/torque-and-development/problem
+The Ruler of HackerLand believes that every citizen of the country should have access to a library. Unfortunately, HackerLand was hit by a tornado that destroyed all of its libraries and obstructed its roads! As you are the greatest programmer of HackerLand, the ruler wants your help to repair the roads and build some new libraries efficiently.
+
+HackerLand has
+cities numbered from to . The cities are connected by
+
+bidirectional roads. A citizen has access to a library if:
+
+    Their city contains a library.
+    They can travel by road from their city to a city containing a library.
+
+
