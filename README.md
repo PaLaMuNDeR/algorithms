@@ -274,7 +274,7 @@ Implement Bubble Sort, Selection Sort, Merge Sort
 
 # Hacker Rank Challenges
 
-## Roads and Libraries
+## 22 Roads and Libraries
 https://www.hackerrank.com/challenges/torque-and-development/problem
 The Ruler of HackerLand believes that every citizen of the country should have access to a library. Unfortunately, HackerLand was hit by a tornado that destroyed all of its libraries and obstructed its roads! As you are the greatest programmer of HackerLand, the ruler wants your help to repair the roads and build some new libraries efficiently.
 
@@ -286,4 +286,14 @@ bidirectional roads. A citizen has access to a library if:
     Their city contains a library.
     They can travel by road from their city to a city containing a library.
 
+## 23 Chocolate distribution
+Christy is interning at HackerRank. One day she has to distribute some chocolates to her colleagues. She is biased towards her friends and plans to give them more than the others. One of the program managers hears of this and tells her to make sure everyone gets the same number.
 
+To make things difficult, she must equalize the number of chocolates in a series of operations. For each operation, she can give
+
+chocolates to all but one colleague. Everyone who gets chocolate in a round receives the same number of pieces.
+
+## 24 Max Subinterval
+From an array select the best subinterval where the sum of its elements would be maximum.
+The elements of the array could be negative.
+-1,000,000<n<1,000,000
