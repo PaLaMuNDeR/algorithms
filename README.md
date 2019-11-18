@@ -297,3 +297,16 @@ chocolates to all but one colleague. Everyone who gets chocolate in a round rece
 From an array select the best subinterval where the sum of its elements would be maximum.
 The elements of the array could be negative.
 -1,000,000<n<1,000,000
+
+## 25 River size
+River Sizes
+You are given a two-dimensional array (matrix) of potentially unequal height and width
+containing only Os and 1s. Each O represents land, and each 1 represents part of a river. A river
+consists of any number of 1s that are either horizontally or vertically adjacent (but not
+diagonally adjacent). The number of adjacent 1s forming a river determine its size. Write a
+function that returns an array of the sizes of all rivers represented in the input matrix. Note that
+these sizes do not need to be in any particular order.
+
+## 26 Largest Range
+Write a function that takes in an array of integers and returns an array of length 2 representing the largest range of numbers contained in that array. The first number in the output array should be the first number in the range while the second number should be the last number in the range. A range of numbers is defined as a set of numbers that come right after each other in the set of real integers. For instance, the output array [2, 6] represents the range {2, 3, 4, 5, 6}, which is a range of length 5. Note that numbers do not need to be ordered or adjacent in the array in order to form a range. Assume that there will only be one largest range.
+Sample input: [1, 11, 3, 0, 15, 5, 2, 4, 10, 7, 12, 6] Sample output: [0, 7]
