@@ -314,3 +314,22 @@ Sample input: [1, 11, 3, 0, 15, 5, 2, 4, 10, 7, 12, 6] Sample output: [0, 7]
 ## 27 Max Profit With K Transactions 
 You are given an array of integers representing the prices of a single stock on various days (each index in the array represents a different day). You are also given an integer k, which represents the number of transactions you are allowed to make. One transaction consists of buying the stock on a given day and selling it on another, later day. Write a function that returns the maximum profit that you can make buying and selling the stock, given k transactions. Note that you can only hold 1 share of the stock at a time; in other words, you cannot buy more than 1 share of the stock on any given day, and you cannot buy a share of the stock if you are still holding another share. 
 Sample input: [5, 11, 3, 50, 60, 90], 2 Sample output: 93 (Buy: 5, Sell: 11; Buy: 3, Sell: 90) 
+
+
+# Algo Expert
+Questions from https://algoexpert.com/ - use promo code `zweav-64` for 15% discount.
+
+
+## Arrays
+
+## 101 Two Number Sum
+Write a function that takes in a non-empty array of distinct integers and an integer representing a target sum. If any two numbers in the input array sum up to the target sum, the function should return them in an array, in sorted order. If no two numbers sum up to the target sum, the function should return an empty array. Assume that there will be at most one pair of numbers summing up to the target sum.
+Sample input: [3, 5, -4, 8, 11, 1, -1, 6], 10 Sample output: [-1,11]
+
+## 102 Three Number Sum 
+Write a function that takes in a non-empty array of distinct integers and an integer representing a target sum. The function should find all triplets in the array that sum up to the target sum and return a two-dimensional array of all these triplets. The numbers in each triplet should be ordered in ascending order, and the triplets themselves should be ordered in ascending order with respect to the numbers they hold. If no three numbers sum up to the target sum, the function should return an empty array. 
+Sample input: [12, 3, 1, 2, -6, 5, -8, 6], 0 Sample output: [[-8, 2, 6], [-8, 3, 5], [-6, 1, 5]] 
+
+## 103 Smallest Difference 
+Write a function that takes in two non-empty arrays of integers. The function should find the pair of numbers (one from the first array, one from the second array) whose absolute difference is closest to zero. The function should return an array containing these two numbers, with the number from the first array in the first position. Assume that there will only be one pair of numbers with the smallest difference. 
+Sample input: [-1, 5, 10, 20, 28, 3], [26, 134, 135, 15, 17] Sample output: [28, 26] 
