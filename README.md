@@ -349,3 +349,12 @@ Sample input: [1, 2, 4, 7, 10, 11, 7, 12, 6, 7, 16, 18, 19] Sample output: [3, 9
 ## 107 Min Rewards 
 Imagine that you're a teacher who's just graded the final exam in a class. You have a list of student scores on the final exam in a particular order (not necessarily sorted), and you want to reward your students. You decide to do so fairly by giving them arbitrary rewards following two rules: first, all students must receive at least one reward; second, any given student must receive strictly more rewards than an adjacent student (a student immediately to the left or to the right) with a lower score and must receive strictly fewer rewards than an adjacent student with a higher score. Assume that all students have different scores; in other words, the scores are all unique. Write a function that takes in a list of scores and returns the minimum number of rewards that you must give out to students, all the while satisfying the two rules. 
 Sample input: [8, 4, 2, 1, 3, 6, 7, 9, 5] Sample output: 25 ([4, 3, 2, 1, 2, 3, 4, 5, 1]) 
+
+## 108 - Zigzag Traverse 
+Write a function that takes in a two-dimensional array and returns a one-dimensional array of all the array's elements in zigzag order. Zigzag order starts at the top left corner of the two-dimensional array, goes down by one element, and proceeds in a zigzag pattern all the way to the bottom right corner. 
+Sample input: [ 
+[1, 3, 4,10], 
+[2, 5, 9, 11], 
+[6, 8, 12, 15], 
+[7, 13, 14, 16], ] 
+Sample output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16] 
