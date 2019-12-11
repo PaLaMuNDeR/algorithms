@@ -385,3 +385,14 @@ Sample input:
 30 
 ```
 Sample output: ['11:30', '12:00'] , ['15:00', '16:00'], ['18:00', '18:30']
+
+## 111 - Caesar Cipher Encryptor 
+Given a non-empty string of lowercase letters and a non-negative integer value representing a key, write a function that returns a new string obtained by shifting every letter in the input string by k positions in the alphabet, where k is the key. Note that letters should "wrap" around the alphabet; in other words, the letter "z" shifted by 1 returns the letter "a". 
+Sample input: "xyz", 2 Sample output: "zab" 
+
+## 112 - Longest Palindromic Substring 
+Write a function that, given a string, returns its longest palindromic substring. A 
+palindrome is defined as a string that is written the same forward and 
+backward. Assume that there will only be one longest palindromic substring. 
+Sample input: "abaxyzzyxf" 
+Sample output: "xyzzyx" 
