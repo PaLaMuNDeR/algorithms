@@ -396,3 +396,7 @@ palindrome is defined as a string that is written the same forward and
 backward. Assume that there will only be one longest palindromic substring. 
 Sample input: "abaxyzzyxf" 
 Sample output: "xyzzyx" 
+
+## 113 - Group Anagrams 
+Write a function that takes in an array of strings and returns a list of groups of anagrams. Anagrams are strings made up of exactly the same letters, where order doesn't matter. For example, "cinema" and "iceman" are anagrams; similarly, "foo" and "ofo" are anagrams. Note that the groups of anagrams don't need to be ordered in any particular way. 
+Sample input: ["yo", "act", "flop", "tac", "cat", "oy", "olfp"] Sample output: [["yo", "oy"], ["flop", "olfp"], ["act", "tac", "cat"]] 
