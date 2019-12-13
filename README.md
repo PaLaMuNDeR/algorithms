@@ -315,6 +315,11 @@ Sample input: [1, 11, 3, 0, 15, 5, 2, 4, 10, 7, 12, 6] Sample output: [0, 7]
 You are given an array of integers representing the prices of a single stock on various days (each index in the array represents a different day). You are also given an integer k, which represents the number of transactions you are allowed to make. One transaction consists of buying the stock on a given day and selling it on another, later day. Write a function that returns the maximum profit that you can make buying and selling the stock, given k transactions. Note that you can only hold 1 share of the stock at a time; in other words, you cannot buy more than 1 share of the stock on any given day, and you cannot buy a share of the stock if you are still holding another share. 
 Sample input: [5, 11, 3, 50, 60, 90], 2 Sample output: 93 (Buy: 5, Sell: 11; Buy: 3, Sell: 90) 
 
+## 28 Cash register
+Minimize the amount of coins you are returning to a client at a cash register. Assume you have coins of denomination: [25, 10, 5, 1]. 
+How would you modify it, if you don't have the coins of 5 cents. 
+
+
 
 # Algo Expert
 Questions from https://algoexpert.com/ - use promo code `zweav-64` for 15% discount.
@@ -400,3 +405,7 @@ Sample output: "xyzzyx"
 ## 113 - Group Anagrams 
 Write a function that takes in an array of strings and returns a list of groups of anagrams. Anagrams are strings made up of exactly the same letters, where order doesn't matter. For example, "cinema" and "iceman" are anagrams; similarly, "foo" and "ofo" are anagrams. Note that the groups of anagrams don't need to be ordered in any particular way. 
 Sample input: ["yo", "act", "flop", "tac", "cat", "oy", "olfp"] Sample output: [["yo", "oy"], ["flop", "olfp"], ["act", "tac", "cat"]] 
+
+## 114 - Longest Substring Without Duplication 
+Write a function that takes in a string and that returns its longest substring without duplicate characters. Assume that there will only be one longest substring without duplication. 
+Sample input: "clementisacap" Sample output: "mentisac" 
