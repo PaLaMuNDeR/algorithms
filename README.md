@@ -409,3 +409,18 @@ Sample input: ["yo", "act", "flop", "tac", "cat", "oy", "olfp"] Sample output: [
 ## 114 - Longest Substring Without Duplication 
 Write a function that takes in a string and that returns its longest substring without duplicate characters. Assume that there will only be one longest substring without duplication. 
 Sample input: "clementisacap" Sample output: "mentisac" 
+
+## 115 - Underscorify Substring 
+Write a function that takes in two strings: a main string and a potential substring of the main string. The function should return a version of the main string with every instance of the substring in it wrapped between underscores. If two instances of the substring in the main string overlap each other or sit side by side, the underscores relevant to these two substrings should only appear on the far left of the left substring and on the far right of the right substring. If the main string does not contain the other string at all, return the main string intact. 
+Sample input: "testthis is a testtest to see if testestest it works", "test" 
+Sample output: " Jest_this is a _testtest_ to see if _testestest_ it works" 
+
+
+## 116 - Find Closest Value In BST 
+You are given a BST data structure consisting of BST nodes. Each BST node has an integer value stored in a property called "value" and two children nodes stored in properties called "left" and "right," respectively. A node is said to be a BST node if and only if it satisfies the BST property: its value is strictly greater than the values of every node to its left; its value is less than or equal to the values of every node to its right; and both of its children nodes are either BST nodes themselves or None (null) values. You are also given a target integer value; write a function that finds the closest value to that target value contained in the BST. Assume that there will only be one closest value. 
+Sample input: 10 ,12 / \ 5 15 / \ / \ 2 513 22 / \ 1 14 Sample output: 13 
+
+
+## 117 - Same BSTs 
+An array of integers is said to represent the Binary Search Tree (BST) obtained by inserting each integer in the array (from left to right) into the BST. Write a function that takes in two arrays of integers and returns a boolean representing whether or not these arrays represent the same BST. Note that you are not allowed to construct any BSTs in your code. A BST is a Binary Tree that consists only of BST nodes. A node is said to be a BST node if and only if it satisfies the BST property: its value is strictly greater than the values of every node to its left; its value is less than or equal to the values of every node to its right; and both of its children nodes are either BST nodes themselves or None (null) values. 
+Sample input: [10, 15, 8, 12, 94, 81, 5, 2, 11], [10, 8, 5, 15, 2, 12, 11, 94, 81] Sample output: True 
