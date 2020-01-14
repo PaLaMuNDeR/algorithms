@@ -434,3 +434,7 @@ Sample input: [75, 105, 120, 75, 90, 135] Sample output: 330 (75, 120, 135)
 ## 119 - Number of ways to make a change
 Given an array of positive integers representing coin denominations and a single non-negative integer representing a target amount of money, implement a function that returns the number of ways to make change for that target amount using the given coin denominations. Note that an unlimited amount of coins is at your disposal. 
 Sample input: 6, [1, 5] Sample output: 2 (1x1 + 1x5 and 6x1) 
+
+## 120 - Min Number Of Coins For Change 
+Given an array of positive integers representing coin denominations and a single non-negative integer representing a target amount of money, implement a function that returns the smallest number of coins needed to make change for that target amount using the given coin denominations. Note that an unlimited amount of coins is at your disposal. If it is impossible to make change for the target amount, return -1. 
+Sample input: 7, [1, 5,10] Sample output: 3 (2x1 + 1x5) 
