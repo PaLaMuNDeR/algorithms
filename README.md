@@ -438,3 +438,8 @@ Sample input: 6, [1, 5] Sample output: 2 (1x1 + 1x5 and 6x1)
 ## 120 - Min Number Of Coins For Change 
 Given an array of positive integers representing coin denominations and a single non-negative integer representing a target amount of money, implement a function that returns the smallest number of coins needed to make change for that target amount using the given coin denominations. Note that an unlimited amount of coins is at your disposal. If it is impossible to make change for the target amount, return -1. 
 Sample input: 7, [1, 5,10] Sample output: 3 (2x1 + 1x5) 
+
+## 121 - Levenshtein Distance 
+Write a function that takes in two strings and returns the minimum number of edit operations that need to be performed on the first string to obtain the second string. There are three edit operations: insertion of a character, deletion of a character, and substitution of a character for another. 
+Sample input: "abc", "yabd" Sample output: 2 (insert "y"; substitute "c" for "d") 
+
