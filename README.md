@@ -424,3 +424,8 @@ Sample input: 10 ,12 / \ 5 15 / \ / \ 2 513 22 / \ 1 14 Sample output: 13
 ## 117 - Same BSTs 
 An array of integers is said to represent the Binary Search Tree (BST) obtained by inserting each integer in the array (from left to right) into the BST. Write a function that takes in two arrays of integers and returns a boolean representing whether or not these arrays represent the same BST. Note that you are not allowed to construct any BSTs in your code. A BST is a Binary Tree that consists only of BST nodes. A node is said to be a BST node if and only if it satisfies the BST property: its value is strictly greater than the values of every node to its left; its value is less than or equal to the values of every node to its right; and both of its children nodes are either BST nodes themselves or None (null) values. 
 Sample input: [10, 15, 8, 12, 94, 81, 5, 2, 11], [10, 8, 5, 15, 2, 12, 11, 94, 81] Sample output: True 
+
+
+## 118 - Maximum Subset Sum With No Adjacent Elements 
+Write a function that takes in an array of positive integers and returns an integer representing the maximum sum of non-adjacent elements in the array. If a sum cannot be generated, the function should return 0. 
+Sample input: [75, 105, 120, 75, 90, 135] Sample output: 330 (75, 120, 135) 
