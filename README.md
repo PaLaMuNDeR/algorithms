@@ -443,3 +443,6 @@ Sample input: 7, [1, 5,10] Sample output: 3 (2x1 + 1x5)
 Write a function that takes in two strings and returns the minimum number of edit operations that need to be performed on the first string to obtain the second string. There are three edit operations: insertion of a character, deletion of a character, and substitution of a character for another. 
 Sample input: "abc", "yabd" Sample output: 2 (insert "y"; substitute "c" for "d") 
 
+## 122 - Max Sum Increasing Subsequence 
+Given an non-empty array of integers, write a function that returns an array of length 2. The first element in the output array should be an integer value representing the greatest sum that can be generated from a strictly-increasing subsequence in the array. The second element should be an array of the numbers in that subsequence. A subsequence is defined as a set of numbers that are not necessarily adjacent but that are in the same order as they appear in the array. Assume that there will only be one increasing subsequence with the greatest sum. 
+Sample input: [10, 70, 20, 30, 50, 11, 30] Sample output: [110, [10, 20, 30, 50]] 
