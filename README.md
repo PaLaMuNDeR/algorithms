@@ -446,3 +446,15 @@ Sample input: "abc", "yabd" Sample output: 2 (insert "y"; substitute "c" for "d"
 ## 122 - Max Sum Increasing Subsequence 
 Given an non-empty array of integers, write a function that returns an array of length 2. The first element in the output array should be an integer value representing the greatest sum that can be generated from a strictly-increasing subsequence in the array. The second element should be an array of the numbers in that subsequence. A subsequence is defined as a set of numbers that are not necessarily adjacent but that are in the same order as they appear in the array. Assume that there will only be one increasing subsequence with the greatest sum. 
 Sample input: [10, 70, 20, 30, 50, 11, 30] Sample output: [110, [10, 20, 30, 50]] 
+
+## 123 - Longest Common Subsequence 
+Implement a function that returns the longest subsequence common to two given strings. A subsequence is defined as a group of characters that appear sequentially, with no importance given to their actual position in a string. In other words, characters do not need to appear consecutively in order to form a subsequence. Assume that there will only be one longest common subsequence. 
+Sample input: "ZXVVYZW", "XKYKZPW" 
+
+## 124 - Min Number Of Jumps 
+You are given a non-empty array of integers. Each element represents the maximum number of steps you can take forward. For example, if the element at index 1 is 3, you can go from index Ito index 2, 3, or 4. Write a function that returns the minimum number of jumps needed to reach the final index. Note that jumping from index i to index i + x always constitutes 1 jump, no matter how large x is. 
+Sample input: [3, 4, 2, 1, 2, 3, 7, 1, 1, 1, 3] Sample output: 4 (3 --> 4 or 2 --> 2 or 3 --> 7 --> 3) 
+
+## 125 - Knapsack Problem 
+You are given an array of arrays. Each subarray in this array holds two integer values and represents an item; the first integer is the item's value, and the second integer is the item's weight. You are also given an integer representing the maximum capacity of a knapsack that you have. Your goal is to fit items in your knapsack, all the while maximizing their combined value. Note that the sum of the weights of the items that you pick cannot exceed the knapsack's capacity. Write a function that returns the maximized combined value of the items that you should pick, as well as an array of the indices of each item picked. Assume that there will only be one combination of items that maximizes the total value in the knapsack. 
+Sample input: [[1, 2], [4, 3], [5, 6], [6, 7]],10 Sample output: [10, [1, 3]] 
