@@ -458,3 +458,12 @@ Sample input: [3, 4, 2, 1, 2, 3, 7, 1, 1, 1, 3] Sample output: 4 (3 --> 4 or 2 -
 ## 125 - Knapsack Problem 
 You are given an array of arrays. Each subarray in this array holds two integer values and represents an item; the first integer is the item's value, and the second integer is the item's weight. You are also given an integer representing the maximum capacity of a knapsack that you have. Your goal is to fit items in your knapsack, all the while maximizing their combined value. Note that the sum of the weights of the items that you pick cannot exceed the knapsack's capacity. Write a function that returns the maximized combined value of the items that you should pick, as well as an array of the indices of each item picked. Assume that there will only be one combination of items that maximizes the total value in the knapsack. 
 Sample input: [[1, 2], [4, 3], [5, 6], [6, 7]],10 Sample output: [10, [1, 3]] 
+
+
+## 126 - Max Profit With K Transactions 
+You are given an array of integers representing the prices of a single stock on various days (each index in the array represents a different day). You are also given an integer k, which represents the number of transactions you are allowed to make. One transaction consists of buying the stock on a given day and selling it on another, later day. Write a function that returns the maximum profit that you can make buying and selling the stock, given k transactions. Note that you can only hold 1 share of the stock at a time; in other words, you cannot buy more than 1 share of the stock on any given day, and you cannot buy a share of the stock if you are still holding another share. Note that you also don't need to use all k transactions that you're allowed. 
+Sample input: [5, 11, 3, 50, 60, 90], 2 Sample output: 93 (Buy: 5, Sell: 11; Buy: 3, Sell: 90) 
+
+## 127 - Kadane's Algorithm 
+Write a function that takes in a non-empty array of integers and returns the maximum sum that can be obtained by summing up all the numbers in a non-empty subarray of the input array. A subarray must only contain adjacent numbers. 
+Sample input: [3, 5, -9, 1, 3, -2, 3, 4, 7, 2, -9, 6, 3, 1, -5, 4] Sample output: 19 ([1, 3, -2, 3, 4, 7, 2, -9, 6, 3, 1]) 
