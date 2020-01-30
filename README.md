@@ -467,3 +467,45 @@ Sample input: [5, 11, 3, 50, 60, 90], 2 Sample output: 93 (Buy: 5, Sell: 11; Buy
 ## 127 - Kadane's Algorithm 
 Write a function that takes in a non-empty array of integers and returns the maximum sum that can be obtained by summing up all the numbers in a non-empty subarray of the input array. A subarray must only contain adjacent numbers. 
 Sample input: [3, 5, -9, 1, 3, -2, 3, 4, 7, 2, -9, 6, 3, 1, -5, 4] Sample output: 19 ([1, 3, -2, 3, 4, 7, 2, -9, 6, 3, 1]) 
+
+## 128 - Topological Sort 
+You are given a list of arbitrary jobs that need to be completed; these jobs are represented by integers. You are also given a list of dependencies. A dependency is represented as a pair of jobs where the first job is prerequisite of the second one. In other words, the second job depends on the first one; it can only be completed once the first job is completed. Write a function that takes in a list of jobs and a list of dependencies and returns a list containing a valid order in which the given jobs can be completed. If no such order exists, the function should return an empty list. 
+Sample input: [1, 2, 3, 4], [[1, 2], [1, 3], [3, 2], [4, 2], [4, 3]] Sample output: [1, 4, 3, 2] or [4, 1, 3, 2] 
+
+## 131 - Find Loop 
+Write a function that takes in the head of a Singly Linked List that contains a loop (in other words, the list's tail node points to some node in the list instead of the None (null) value). The function should return the node (the actual node - not just its value) from which the loop originates in constant space. Note that every node in the Singly Linked List has a "value" property storing its value as well as a "next" property pointing to the next node in the list. 
+Sample input: nO -> n1-> n2 -> n3 -> n4 -> n5 -> n6 A v n9 <- n8 <- n7 
+Sample output: n4 
+
+## 132 - Reverse Linked List 
+Write a function that takes in the head of a Singly Linked List (assume that the list has at least 1 node; in other words, the head will never be a null value). The function should reverse the list and return its new head. Note that every node in the Singly Linked List has a "value" property storing its value as well as a "next" property pointing to the next node in the list or None (null) if it is the tail of the list. 
+Sample input: 0 -> 1 -> 2 -> 3 -> 4 -> 5 (the head node with value 0) Sample output: 5 -> 4 -> 3 -> 2 -> 1 -> 0 (the new head node with value 5) 
+
+## 133 - Merge Linked Lists 
+Write a function that takes in the heads of two Singly Linked Lists that are in sorted order, respectively (assume that the lists have at least 1 node; in other words, the heads will never be null values). The function should merge the lists and return the head of the merged list; the merged list should be in sorted order. Note that every node in the Singly Linked Lists has a "value" property storing its value as well as a "next" property pointing to the next node in the list or None (null) if it is the tail of the list. 
+Sample input: 
+2 -> 6 -> 7 -> 8 (the head node with value 2) 1 -> 3 -> 4 -> 5 -> 9 -> 10 (the head node with value 1) 
+Sample output: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9 -> 10 (the new head node with value 1) 
+
+## 134 - Single Cycle Check 
+You are given an array of integers. Each integer represents a jump of its value in the array. For instance, the integer 2 represents a jump of 2 indices forward in the array; the integer -3 represents a jump of 3 indices backward in the array. If a jump spills past the array's bounds, it wraps over to the other side. For instance, a jump of -1 at index 0 brings us to the last index in the array. Similarly, a jump of 1 at the last index in the array brings us to index 0. Write a function that returns a boolean representing whether the jumps in the array form a single cycle. A single cycle occurs if, starting at any index in the array and following the jumps, every element is visited exactly once before landing back on the starting index. 
+Sample input: [2, 3, 1, -4, -4, 2] Sample output: True 
+
+## 135 - Youngest Common Ancestor 
+You're given three inputs, all of which are instances of a class that have an "ancestor" property pointing to their youngest ancestor. The first input is the top ancestor in an ancestral tree (i.e., the only instance that has no ancestor), and the other two inputs are descendants in the ancestral tree. Write a function that returns the youngest common ancestor to the two descendants. 
+Sample input: Node A, Node E, Node I (from the ancestral tree below) 
+``` A 
+   /  \
+  B    C
+ / \  / \ 
+ D E F   G
+/\
+H I 
+```
+Sample output: Node B 
+
+## 136 - Rectangle Mania 
+Write a function that takes in a list of Cartesian coordinates (i.e., (x, y) coordinates) and returns the number of rectangles formed by these coordinates. Note that a rectangle must have four corners present in order to be counted, and we only care about rectangles with sides parallel to the x and y axes (i.e., with horizontal and vertical sides--no diagonal sides). You can also assume that no coordinate will be farther than 100 units from the origin. 
+Sample input: [[0, 0], [0, 1], [1, 1], [1, 0], [2, 1], [2, 0], [3, 1], [3, 0]] Sample output: 6 
+
+
