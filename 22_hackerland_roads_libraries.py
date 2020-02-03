@@ -136,8 +136,6 @@ def Union(x,y):
         xParent.rank += 1
 
 
-
-# Complete the roadsAndLibraries function below.
 def roadsAndLibraries(n, c_lib, c_road, roads):
     """
         If the cost to build a library is less than a road - just build libraries.

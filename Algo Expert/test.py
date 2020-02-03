@@ -70,7 +70,6 @@ def solution(S):
 
     return cuts
 
-assert(solution(5,4,3,2,6),2)
 print(solution([5,4,3,2,6]))
 print(solution([3,7,8,3,5]))
 print(solution([3,7,4,5]))
