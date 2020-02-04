@@ -9,7 +9,7 @@ Sample input: "clementisacap" Sample output: "mentisac"
 
 def longestSubstringWithoutDuplication(string):
     """
-    Store the visited letters in a dictionary - when we meet a repetetive word,
+    Store the visited letters in a dictionary. When we meet a repetitive letter,
     update the new occurence and trim the current string to start from whenever the previous letter was found.
     Check what is the longest string and save it for the output.
     """
